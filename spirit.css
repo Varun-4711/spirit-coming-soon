@@ -1,0 +1,194 @@
+
+      
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.box {
+    background-color: black;
+    border: 0px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box1 {
+    background-color: black;
+    border: 0px solid white;
+
+}
+
+pre {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box1 img {
+    height: 40px;
+    width: 110px;
+}
+
+.box2 {
+    background-color: black;
+    border: 0px solid white;
+    color: white;
+
+
+    height: 50px;
+    font-size: 25px;
+}
+
+
+
+
+.box4 {
+    background-color: black;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.box3 {
+    background-color: black border: 0px solid rgb(141, 125, 125);
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.b1 {
+    border: 0px solid white;
+    width: 50px;
+    height: 42px;
+}
+
+.box3 img {
+    height: 47px;
+    width: 50px;
+}
+
+.b2 {
+    border: 0px solid white;
+    width: 50px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.b3 {
+    border: 0px solid white;
+    width: 50px;
+    height: 40px;
+    background-color: black;
+    margin-left: 20px;
+}
+
+.b4 {
+    border: 0px solid white;
+    width: 50px;
+    height: 40px;
+    background-color: black;
+    margin-left: 20px;
+}
+
+.b3 img {
+    background-color: black;
+}
+
+
+.first {
+    border: 0px solid white;
+    margin-top: 60px;
+
+
+}
+
+
+
+
+@media(max-width:466px) {
+    .box {
+        margin-left: 0px;
+        margin-top: 170px;
+    }
+
+    .box2 {
+        font-size: 24px;
+        margin-left: 28px;
+    }
+
+    .box1 {
+        margin-left: 38px;
+    }
+
+    .box4 {
+        font-size: 17px;
+        margin-top: 80px;
+        margin-left: 30px;
+    }
+
+    .box3 {
+        margin-left: 20px;
+
+    }
+
+    .last {
+        margin-top: 220px;
+    }
+
+    .first img {
+        margin-left: 35%;
+    }
+
+    .last img {
+        margin-left: 30px;
+    }
+
+}
+
+@media (min-width: 467px) and (max-width: 966px) {
+    .box {
+        margin-left: 10px;
+        margin-top: 204px;
+    }
+
+    .box2 {
+        font-size: 32px;
+    }
+
+    .box4 {
+        font-size: 20px;
+    }
+
+    .last {
+        margin-top: 350px;
+        margin-left: 32%;
+    }
+
+    .first img {
+        margin-left: 42%;
+    }
+
+}
+
+@media (min-width: 967px) {
+    .box {
+        margin-left: 20px;
+        margin-top: 174px;
+    }
+
+    .first img {
+        margin-left: 2%;
+    }
+
+    .box2 {
+        font-size: 35px;
+    }
+
+    .last {
+        padding-left: 76%;
+        margin-top: 80px;
+    }
+
+}
+     
